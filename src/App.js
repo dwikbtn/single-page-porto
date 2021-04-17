@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Navbar from "./containers/Navbar/Navbar";
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <h1>hello world </h1>
+        <Navbar />
       </>
-    )
+    );
   }
 }
