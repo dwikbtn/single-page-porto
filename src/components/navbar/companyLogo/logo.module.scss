@@ -1,9 +1,12 @@
 @import "../../../assets/styles/main.scss";
 
 .brandIcon {
+  display: flex;
+  margin-left: 90px;
+
   h1 {
     color: $white;
-    width: 512rem;
+    font-size: 2rem;
     font-weight: bold;
     span {
       color: $accent;

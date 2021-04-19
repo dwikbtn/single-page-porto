@@ -1,6 +1,19 @@
 @import "../../../assets/styles/main.scss";
 
 .navItem {
+  margin-right: 90px;
+  width: 100%;
   text-decoration: none;
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  ul {
+    display: flex;
+    li {
+      padding: 0px 15px;
+      color: white;
+      font-size: 1rem;
+    }
+  }
 }
