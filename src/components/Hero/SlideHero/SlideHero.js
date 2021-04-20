@@ -10,6 +10,9 @@ export default function SlideHero() {
           magni blanditiis
         </p>
       </div>
+      <a href="#" className={style.cta}>
+        Contact Us Now
+      </a>
     </div>
   );
 }
