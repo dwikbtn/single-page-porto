@@ -1,6 +1,10 @@
 @import "../../../assets/styles/main.scss";
 
 .bgSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
   background-position: center center;
@@ -9,10 +13,6 @@
   animation: slide 8s linear infinite;
   animation-timing-function: ease-in-out;
   background-image: url(../../../assets/img/bg/bg-1.jpg);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 @keyframes slide {
@@ -31,6 +31,7 @@
 }
 
 .heroText {
+  display: block;
   h1 {
     color: white;
     text-align: center;
@@ -43,8 +44,7 @@
 }
 
 .cta {
-  display: flex;
-  align-items: flex-end;
+  margin-top: 20px;
   border-radius: 35px;
   text-align: center;
   background-color: $accent;
